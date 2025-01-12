@@ -1,0 +1,10 @@
+What is the difference between AWS Redshift, Google BigQuery, and Azure Synapse?
+
+Answer:
+•	AWS Redshift: A fully managed data warehouse on AWS. It uses columnar storage for fast query performance and integrates well with other AWS services.
+•	Google BigQuery: A serverless, highly scalable data warehouse that runs on Google Cloud. It uses Dremel for fast SQL queries and provides integration 
+    with Google Cloud's AI and machine learning tools.
+•	Azure Synapse: A cloud-based data integration service in Microsoft Azure, which combines big data and data warehousing capabilities. 
+    It integrates well with Azure’s AI and machine learning services.
+
+All three services allow for scalable data storage and high-performance querying, but they differ in their integration with the respective cloud provider's ecosystem.
