@@ -1,0 +1,8 @@
+What is a star schema, and how is it used in data warehousing?
+
+Answer:
+A star schema is a type of data modeling used in data warehousing, where a central fact table is connected to several dimension tables. 
+The fact table contains quantitative data (e.g., sales revenue), while the dimension tables contain descriptive attributes (e.g., customer name, date, product).
+
+The star schema is designed for efficient querying and reporting, where fact tables are typically denormalized, and dimension tables are often normalized. 
+This design simplifies query performance and is commonly used in OLAP systems.
