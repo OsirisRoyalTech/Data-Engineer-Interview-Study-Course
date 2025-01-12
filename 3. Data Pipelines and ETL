@@ -9,3 +9,19 @@ Answer:
 
 ETL is commonly used when transformations are complex or require specific processing logic, while ELT is preferred for handling large volumes of data and 
 when the transformation is relatively simple or can be done using the features of the target system.
+________________________________________
+
+What is a data pipeline, and what tools would you use to build one?
+
+Answer:
+A data pipeline is a series of steps that move data from one system to another, often transforming the data in between. Data pipelines automate the 
+process of extracting, transforming, and loading data.
+
+Tools commonly used for building data pipelines:
+•	Apache Airflow: For orchestrating and automating workflows.
+•	Apache Kafka: For streaming data pipelines and real-time data processing.
+•	Apache NiFi: For data ingestion and movement between systems.
+•	AWS Glue: A managed ETL service in AWS.
+•	Talend: An ETL tool for data integration and transformation.
+•	dbt (Data Build Tool): For transforming data in data warehouses.
+•	Apache Beam: A unified stream and batch processing framework.
