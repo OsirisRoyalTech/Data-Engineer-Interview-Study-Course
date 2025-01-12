@@ -1,0 +1,8 @@
+How would you design a data pipeline for processing large volumes of log data in real time?
+
+Answer:
+1.	Data Ingestion: Use Apache Kafka or AWS Kinesis to stream log data in real time. Kafka would capture logs from various servers, applications, or microservices.
+2.	Data Processing: Use Apache Spark Streaming or AWS Lambda to process the log data in real time. Spark Streaming can process log data in mini-batches.
+3.	Data Transformation: Perform data cleaning, enrichment, and aggregation using Spark or AWS Glue.
+4.	Data Storage: Store processed log data in a data lake (e.g., AWS S3) or a distributed data warehouse (e.g., Redshift or BigQuery).
+5.	Monitoring and Alerting: Implement monitoring tools like Prometheus or Grafana to keep track of data pipeline health and set up alerting for anomalies.
