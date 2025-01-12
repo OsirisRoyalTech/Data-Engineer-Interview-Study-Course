@@ -1,0 +1,12 @@
+What is Data Engineering, and what is the role of a Data Engineer?
+
+Answer:
+Data Engineering is the process of designing, building, and managing data systems that collect, store, and process data. 
+Data engineers are responsible for constructing the infrastructure for data generation, collection, and storage. They also create pipelines for data transformation 
+and ensure that data is accessible and useful for analysis, decision-making, and machine learning models.
+
+Key responsibilities:
+•	Build and maintain data pipelines.
+•	Design and manage databases and data warehouses.
+•	Ensure data is clean, reliable, and accessible for other teams (data analysts, data scientists, etc.).
+•	Work with various tools and technologies (ETL frameworks, cloud platforms, databases).
