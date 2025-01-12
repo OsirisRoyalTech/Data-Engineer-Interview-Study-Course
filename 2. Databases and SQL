@@ -1,0 +1,8 @@
+What is the difference between OLTP and OLAP?
+
+Answer:
+•	OLTP (Online Transaction Processing): Systems designed for managing transactional data. Typically, OLTP systems are optimized for high-speed data entry and retrieval. 
+  Example: relational databases like MySQL, PostgreSQL.
+
+•	OLAP (Online Analytical Processing): Systems designed for analyzing large volumes of data, often for reporting and decision-making. 
+  OLAP systems are optimized for complex queries and aggregations. Example: data warehouses like Redshift, BigQuery.
