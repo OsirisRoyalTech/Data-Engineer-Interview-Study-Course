@@ -1,0 +1,25 @@
+What is Hadoop, and how does it work?
+
+Answer:
+Hadoop is an open-source framework for distributed storage and processing of large datasets. It works by dividing large datasets into smaller 
+chunks and distributing them across a cluster of machines. Hadoop uses a distributed file system called HDFS (Hadoop Distributed File System) for storage 
+and the MapReduce programming model for processing data in parallel.
+
+Components of Hadoop:
+•	HDFS: A distributed file system that stores data across multiple machines.
+•	MapReduce: A programming model that processes data in parallel across a cluster.
+•	YARN: A resource manager that manages cluster resources for scheduling and job execution.
+•	Hive: A data warehouse built on top of Hadoop for querying data with SQL-like syntax.
+•	Pig: A high-level platform for creating MapReduce programs.
+________________________________________
+
+What is Apache Spark, and how does it differ from Hadoop?
+
+Answer:
+Apache Spark is a unified analytics engine for big data processing, with built-in modules for streaming, machine learning, graph processing, and SQL. 
+It is faster and more efficient than Hadoop MapReduce due to its in-memory computing capabilities.
+
+Key differences between Apache Spark and Hadoop:
+•	Speed: Spark processes data in-memory, while Hadoop relies on disk storage for intermediate data.
+•	Ease of use: Spark provides APIs in Python, Java, Scala, and R, making it easier for developers to write complex algorithms compared to Hadoop’s MapReduce.
+•	Fault tolerance: Both frameworks provide fault tolerance, but Spark’s data is stored in Resilient Distributed Datasets (RDDs), making it more flexible for recovery.
