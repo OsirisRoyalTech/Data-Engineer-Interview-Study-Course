@@ -6,3 +6,26 @@ Answer:
 
 •	OLAP (Online Analytical Processing): Systems designed for analyzing large volumes of data, often for reporting and decision-making. 
   OLAP systems are optimized for complex queries and aggregations. Example: data warehouses like Redshift, BigQuery.
+________________________________________
+
+Explain normalization and denormalization. When would you use each?
+
+Answer:
+•	Normalization: The process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller ones and establishing relationships between them using foreign keys. It ensures data consistency.
+o	Example: A table for customer information might be split into separate tables for addresses, customers, and orders.
+•	Denormalization: The process of combining tables to reduce the complexity of queries, often at the cost of data redundancy. Denormalized data is typically used to improve read performance, especially in data warehousing.
+o	Example: Storing redundant customer data in the orders table to make querying faster for reporting purposes.
+________________________________________
+
+What is a SQL JOIN, and what are the different types?
+
+Answer:
+A JOIN in SQL is used to combine rows from two or more tables based on a related column between them.
+
+Types of JOINS:
+•	INNER JOIN: Returns only the rows where there is a match in both tables.
+•	LEFT JOIN: Returns all rows from the left table, and the matched rows from the right table. If no match, NULL values are returned for the right table.
+•	RIGHT JOIN: Returns all rows from the right table, and the matched rows from the left table. If no match, NULL values are returned for the left table.
+•	FULL OUTER JOIN: Returns rows when there is a match in one of the tables. If no match, NULL values are returned for non-matching rows in either table.
+•	CROSS JOIN: Returns the Cartesian product of two tables, i.e., every combination of rows between the two tables.
+
