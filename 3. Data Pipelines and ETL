@@ -1,0 +1,11 @@
+What is ETL, and how is it different from ELT?
+
+Answer:
+•	ETL (Extract, Transform, Load): A process where data is first extracted from source systems, transformed (cleaned, enriched, or aggregated), and then 
+  loaded into a target system (like a data warehouse).
+
+•	ELT (Extract, Load, Transform): In this approach, data is first extracted and loaded into the target system, and then the transformation happens within 
+  the target system itself, often using the computational power of data warehouses like BigQuery or Redshift.
+
+ETL is commonly used when transformations are complex or require specific processing logic, while ELT is preferred for handling large volumes of data and 
+when the transformation is relatively simple or can be done using the features of the target system.
