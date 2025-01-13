@@ -1,0 +1,7 @@
+What is Data Lake, and how does it differ from a Data Warehouse?
+
+Answer:
+•	Data Lake: A centralized repository that stores raw, unprocessed data in its native format (structured, semi-structured, or unstructured). 
+    It is designed for large-scale data storage and allows for complex processing, such as data exploration, machine learning, and deep learning.
+
+•	Data Warehouse: A centralized repository of structured data that has been processed, cleaned, and transformed for analysis. It is optimized for querying and reporting, typically using OLAP techniques.
